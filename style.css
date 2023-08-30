@@ -1,3 +1,4 @@
+
 .navbar{
     height: 80px;
     background-color: #fff;
@@ -20,6 +21,15 @@ h2{
     font-size: 30px;
     margin: 20px;
     padding: 15px;
+}
+h4{
+    color: #31572C;
+}
+.card-body{
+    background-color: #F8FBD1;
+}
+.btn-primary{
+    background-color: #31572C;
 }
 
 footer{
