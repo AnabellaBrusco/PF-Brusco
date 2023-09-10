@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=DM+Serif+Display&family=Lustria&family=Neucha&family=Raleway:wght@100&display=swap');
+
+//font-family: 'Cinzel', serif;
+//font-family: 'DM Serif Display', serif;
+//font-family: 'Lustria', serif;
+//font-family: 'Neucha', cursive;
+//font-family: 'Raleway', sans-serif;
+
+$font1: 'Lustria', serif;
+$font2: 'DM Serif Display', serif;
+$color1: #588157;
+$color2: #31572C;
+
+
+.navbar {
+    height: 80px;
+    background-color: #fff;
+
+    img {
+        height: 60px;
+    }
+    a {
+        color: $color1 !important;
+    }
+    a:hover {
+        color: #000 !important;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: $color1;
+    font-size: 30px;
+    font-family: $font2;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 15px;
+}
+
+h4 {
+    color: #31572C;
+    font-family: $font1;
+}
+.btn-primary {
+    background-color: #31572C;
+}
+
+.boton {
+    color: #31572C;
+}
+
+section {
+    height: 60;
+    padding: 30px;
+
+    p{
+        color: #000;
+
+    }
+}
+
+.form{
+    position: relative;
+
+    .fa-search{
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        color: $color1;
+        }
+
+    input{
+        height: 35px;
+        text-indent: 33px;
+        border-radius: 10px;
+    }
+
+    input:focus{
+        box-shadow: none;
+        border-color: $color2;
+    }
+}
+
+.cuadrado {
+    a {
+        text-decoration: none;
+        color: $color2;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: $font1;
+    }
+
+    a:hover{
+        color: #000;
+    }
+
+}
+
+footer {
+    background-color: #588157;
+    color: #fff;
+    }
