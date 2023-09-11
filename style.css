@@ -36,12 +36,15 @@ h4 {
   color: #31572C;
 }
 
-section {
+.macetas {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(img/macetas.jpg);
+  background-position: center;
+  background-size: cover;
   height: 60;
   padding: 30px;
 }
-section p {
-  color: #000;
+.macetas p {
+  color: #fff;
 }
 
 .form {
