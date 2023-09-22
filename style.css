@@ -1,7 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=DM+Serif+Display&family=Lustria&family=Neucha&family=Raleway:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar collapse {
   height: 80px;
   background-color: #fff;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 .navbar img {
   height: 60px;
@@ -36,14 +47,39 @@ h4 {
   color: #31572C;
 }
 
-.macetas {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(img/macetas.jpg);
+.macetas .macetas-img {
+  background: url(img/macetasport.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 60;
-  padding: 30px;
+  min-height: 500px;
 }
-.macetas p {
+.macetas .btn {
+  border-color: #588157;
+  text-transform: uppercase;
+  color: #588157;
+  max-width: 100px;
+}
+.macetas .btn:hover {
+  background-color: #588157;
+  color: #fff;
+}
+
+.consejos .consejos-img {
+  background: url(img/consejos.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.consejos .btn {
+  border-color: #588157;
+  text-transform: uppercase;
+  color: #588157;
+  max-width: 100px;
+}
+.consejos .btn:hover {
+  background-color: #588157;
   color: #fff;
 }
 
@@ -66,18 +102,84 @@ h4 {
   border-color: #31572C;
 }
 
-.cuadrado a {
+.coleccion-interior a {
   text-decoration: none;
   color: #31572C;
   font-size: 20px;
-  text-transform: uppercase;
   font-family: "Lustria", serif;
 }
-.cuadrado a:hover {
+.coleccion-interior a:hover {
   color: #000;
+}
+.coleccion-interior .btn {
+  background-color: #31572C;
+  max-width: 200px;
+}
+
+.sec-macetas img {
+  padding: 20px;
+}
+.sec-macetas h4 {
+  margin: 20px;
+  font-family: "Lustria", serif;
+}
+.sec-macetas p {
+  margin: 20px;
+  font-family: "Lustria", serif;
+  font-size: 15px;
+}
+
+.coleccion-macetas p {
+  color: #31572C;
+  font-family: "Lustria", serif;
+}
+.coleccion-macetas h4 {
+  margin: 20px;
+  font-family: "Lustria", serif;
+}
+.coleccion-macetas .btn {
+  background-color: #31572C;
+  max-width: 200px;
+}
+
+.post2 img {
+  width: 500px;
+  height: 500px;
+}
+.post2 p {
+  font-size: 15px;
+}
+
+.contacto {
+  background-image: url(img/fondocontac.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contacto form {
+  max-width: 600px;
+}
+.contacto input:focus {
+  box-shadow: none;
+}
+.contacto .form-control {
+  padding: 10;
+}
+.contacto .form-control::-moz-placeholder {
+  color: #fff;
+}
+.contacto .form-control::placeholder {
+  color: #fff;
+}
+.contacto .btn {
+  color: #588157;
+}
+.contacto .btn:hover {
+  background-color: transparent !important;
+  color: #fff;
 }
 
 footer {
-  background-color: #588157;
+  background-color: #31572C;
   color: #fff;
 }/*# sourceMappingURL=style.css.map */
